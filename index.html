@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelEase | Booking Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h2 class="logo">TravelEase</h2>
+    <nav>
+      <a href="flights.html">Flights</a>
+      <a href="trains.html">Trains</a>
+      <a href="bus.html">Bus</a>
+      <a href="hotels.html">Hotels</a>
+      <a href="tours.html">Tours</a>
+      <a href="login.html" class="btn">Login</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Your One-Stop Travel Booking Platform</h1>
+    <p>Book Flights ✈️ Trains 🚆 Bus 🚌 Hotels 🏨 Tours 🌍</p>
+
+    <!-- Search Box -->
+    <div class="search-box">
+      <select>
+        <option>Flights</option>
+        <option>Trains</option>
+        <option>Bus</option>
+        <option>Hotels</option>
+        <option>Tours</option>
+      </select>
+
+      <input type="text" placeholder="From">
+      <input type="text" placeholder="To">
+      <input type="date">
+      <button onclick="searchNow()">Search</button>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="services">
+    <div class="card">
+      <h2>✈ Flights</h2>
+      <p>Book domestic & international flights at best prices.</p>
+      <a href="flights.html">Explore</a>
+    </div>
+
+    <div class="card">
+      <h2>🚆 Trains</h2>
+      <p>Reserve train tickets with live schedule support.</p>
+      <a href="trains.html">Explore</a>
+    </div>
+
+    <div class="card">
+      <h2>🚌 Bus</h2>
+      <p>Book AC/Non-AC buses across cities instantly.</p>
+      <a href="bus.html">Explore</a>
+    </div>
+
+    <div class="card">
+      <h2>🏨 Hotels</h2>
+      <p>Find hotels, resorts, villas with best deals.</p>
+      <a href="hotels.html">Explore</a>
+    </div>
+
+    <div class="card">
+      <h2>🌍 Tours</h2>
+      <p>Holiday packages, honeymoon & adventure trips.</p>
+      <a href="tours.html">Explore</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 TravelEase Booking | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
